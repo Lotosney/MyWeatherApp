@@ -37,12 +37,12 @@ function displayResults(weather) {
       return "Czyste Niebo"
     } else if (weather.weather[0].main === "Rain") {
       document.body.style.backgroundImage = "url('assets/pexels-chris-kane-rain.jpg')";
-      return "Deszczowo"
+      return "Deszcz"
     } else if (weather.weather[0].main === "Mist") {
-      return "Mgliście"
+      return "Mgła"
     } else if (weather.weather[0].main === "Clouds") {
       document.body.style.backgroundImage = "url('assets/pexels-oleg-magni-clouds.jpg')";
-      return "Pochmurno"
+      return "Zachmurzenie"
     } else if (weather.weather[0].main === "Thunderstorm") {
       document.body.style.backgroundImage = "url('assets/pexels-josh-sorenson-storm.jpg')"
       return "Burza"
