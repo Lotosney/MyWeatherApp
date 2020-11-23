@@ -39,6 +39,7 @@ function displayResults(weather) {
       document.body.style.backgroundImage = "url('assets/pexels-chris-kane-rain.jpg')";
       return "Deszcz"
     } else if (weather.weather[0].main === "Mist") {
+      document.body.style.backgroundImage = "url('assets/pexels-karol-wiśniewski-mist.jpg')";
       return "Mgła"
     } else if (weather.weather[0].main === "Clouds") {
       document.body.style.backgroundImage = "url('assets/pexels-oleg-magni-clouds.jpg')";
